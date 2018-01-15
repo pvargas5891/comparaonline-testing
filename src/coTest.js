@@ -1,3 +1,7 @@
+/**
+ * Class Product
+ * Description single product object
+ */
 class Product {
   constructor(name, sellIn, price) {
     this.name = name;
