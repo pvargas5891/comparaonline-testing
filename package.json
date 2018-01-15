@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha spec/coTestSpec.js",
-    "after-30-days": "mocha spec/afterThirtyDays.js"
+    "after-30-days": "mocha spec/atdTestSpec.js"
   },
   "repository": {
     "type": "git",
