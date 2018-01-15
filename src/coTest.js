@@ -29,6 +29,12 @@ class CarInsurance {
         if (this.products[i].price > 0) {
           if (this.products[i].name != 'Mega Coverage') {
             this.products[i].price = this.products[i].price - 1;
+            /**
+            * Add rule "Products Super Sale degrade in price twice as fast as normal products"
+            */
+            if (this.products[i].name == 'Super Sale'){
+              this.products[i].price = this.products[i].price - 1;
+            }
           }
         }
       } else {
